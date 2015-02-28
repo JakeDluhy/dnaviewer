@@ -1,0 +1,23 @@
+{
+  "name": "dnaviewer",
+  "main": "app.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/JakeDluhy/dnaviewer",
+  "authors": [
+    "Jake Dluhy <dluhy2@illinois.edu>"
+  ],
+  "description": "DNA viewing single page app created for desktop genetics",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "d3": "~3.5.5",
+    "bootstrap": "~3.3.2"
+  }
+}
