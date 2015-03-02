@@ -9,16 +9,25 @@
     <link rel="stylesheet" type="text/css" href="/assets/main.css">
 </head>
 <body>
+	
+	<h1 class="title"></h1>
+	<div class="graph-container">
+		<div class="instructions">
+			<h3>Welcome!</h3>
+			<p>Mouse over a feature to see its details</p>
+		</div>
+		<div class="info">
 
+		</div>
+	</div>
 
-	<div>
+	<div class="table-container">
 		<table class="table table-striped table-bordered">
 			<tbody class="data-display">
 				<tr>
 					<th></th>
 					<th>Name</th>
 					<th>Type</th>
-					<th>Visible</th>
 					<th>Start</th>
 					<th>End</th>
 					<th>Strand</th>
@@ -28,8 +37,9 @@
 		</table>
 	</div>
 
-	<script src="/assets/main.js"></script>
-	<script src="/bower_components/d3/d3.js"></script>
+	<script src="/bower_components/jquery/dist/jquery.js"></script>
 	<script src="/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+	<script src="/bower_components/d3/d3.js"></script>
+	<script src="/assets/main.js"></script>
 </body>
 </html>

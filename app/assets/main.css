@@ -1,3 +1,57 @@
 * {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif !important;
+}
+.title {
+	margin: 5px 10px;
+}
+.graph-container {
+	position: relative;
+	float: right;
+	width: 550px;
+	height: 550px;
+	margin: 10px;
+}
+.instructions, .info {
+	position: absolute;
+	background-color: white;
+	height: 130px;
+	width: 130px;
+	left: 210px;
+	top: 210px;
+	padding: 5px;
+	text-align: center;
+}
+.instructions {
+	z-index: 5;
+}
+.info.active {
+	z-index: 10;
+}
+.instructions h3{
+	margin: 20px 0 5px 0;
+}
+.info h3 {
+	margin: 0 0 5px;
+}
+img.backward {
+	-moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+
+.table-container {
+	width: 600px;
+	margin: 40px 5px;
+	float: left;
+}
+tr.active {
+	cursor: pointer;
+}
+tr.active td {
+	background-color: rgba(0,0,0,0) !important;
+	border-right-color: rgba(0,0,0,0) !important;
+	border-left-color: rgba(0,0,0,0) !important;
 }
