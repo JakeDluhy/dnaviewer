@@ -14,6 +14,7 @@
 .instructions, .info {
 	position: absolute;
 	background-color: white;
+	/* Calculated height, width, left, and top values to centrally position the div in the center of the ring */
 	height: 130px;
 	width: 130px;
 	left: 210px;
@@ -34,6 +35,7 @@
 	margin: 0 0 5px;
 }
 img.backward {
+	/* Flip the image over if it should be a backwards feature */
 	-moz-transform: scaleX(-1);
   -o-transform: scaleX(-1);
   -webkit-transform: scaleX(-1);
@@ -51,7 +53,12 @@ tr.active {
 	cursor: pointer;
 }
 tr.active td {
+	/* Remove the background color and border color from the td elements so the background of the tr can be seen */
 	background-color: rgba(0,0,0,0) !important;
 	border-right-color: rgba(0,0,0,0) !important;
 	border-left-color: rgba(0,0,0,0) !important;
 }
+
+/*tr:nth-child(2) td:nth-child(2) {
+	background-color: black;
+}*/
