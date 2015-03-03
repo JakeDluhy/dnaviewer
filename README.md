@@ -1,6 +1,3 @@
-# dnaviewer
-Browser Based Viewer of DNA
-
 ## Introduction
 This is Jake Dluhy's response to the assignment provided by Desktop Genetics. It implements a single page application using d3.js, jquery.js, and bootstrap to take the JSON fixture and create a visual representation of a plasmid as well as the associated information linked in a table.
 
@@ -19,4 +16,4 @@ I also specifically decided not to implement a search functionality. Perhaps thi
 Likewise, I didn't see the merit in being able to zoom, rotate, or scale the diagram. Although there are small slivered elements that are difficult to see in detail, I also don't forsee a use case where someone would want to see a particular arc in larger scale.
 
 ## Running the Tests
-As mentioned above, run `npm -g install casperjs` from /app to globally install casper. Navigate to /app/test and run the command `casperjs test test.js`. This will run casper and the 10 tests associated with the project, primarily designed to ensure that the data is populated by d3 on page load. UI interface behavior was not tested.
+As mentioned above, run `npm -g install casperjs` from /app to globally install casper. First make sure that the application is running by running `node app.js` from the /app directory. Then navigate to /app/test and run the command `casperjs test test.js`. This will run casper and the 10 tests associated with the project, primarily designed to ensure that the data is populated by d3 on page load. UI interface behavior was not tested.
